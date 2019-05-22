@@ -1,5 +1,5 @@
 clear all;
-img = imread('C:\Users\FahRii\Downloads\Compressed\restorasi-citra\2.jpg');
+img = imread('2.jpg');
 [G] = drimpuls(img, 0.2);
 %[K] = filyp(img,9,-5);
 figure(1);
